@@ -30,7 +30,6 @@ bio: ''
 interests:
   - Signal Processing
   - Machine Learning
-  - Computer Vision
 
 # Education to show in About widget
 education:
