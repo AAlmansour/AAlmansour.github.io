@@ -28,13 +28,14 @@ bio: ''
 
 # Interests to show in About widget
 interests:
-  - Signal Processing
-  - Machine Learning
+  * Signal Processing
+  * Machine Learning
 
 # Education to show in About widget
 education:
   courses:
-    - course: Bachelor of Science in Computer Engineering
+    - icon: envelope
+      course: Bachelor of Science in Computer Engineering
       institution: King Saud University
       year: 2015 - 2020
     #- course: MEng in Artificial Intelligence
