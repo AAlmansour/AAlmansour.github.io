@@ -28,8 +28,8 @@ bio: ''
 
 # Interests to show in About widget
 interests:
-  * Signal Processing
-  * Machine Learning
+  - Signal Processing
+  - Machine Learning
 
 # Education to show in About widget
 education:
