@@ -34,8 +34,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - icon: envelope
-      course: Bachelor of Science in Computer Engineering
+    - course: Bachelor of Science in Computer Engineering
       institution: King Saud University
       year: 2015 - 2020
     #- course: MEng in Artificial Intelligence
