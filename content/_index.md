@@ -86,48 +86,92 @@ sections:
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
-  #- block: accomplishments
-  #  content:
-  #    # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-  #    title: 'Accomplish&shy;ments'
-  #    subtitle:
-  #    # Date format: https://docs.hugoblox.com/customization/#date-format
-  #    date_format: Jan 2006
-  #    # Accomplishments.
-  #    #   Add/remove as many `item` blocks below as you like.
-  #    #   `title`, `organization`, and `date_start` are the required parameters.
-  #    #   Leave other parameters empty if not required.
-  #    #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #    items:
-  #      - certificate_url: https://www.coursera.org
-  #        date_end: ''
-  #        date_start: '2021-01-25'
-  #        description: ''
-  #        icon: coursera
-  #        organization: Coursera
-  #        organization_url: https://www.coursera.org
-  #        title: Neural Networks and Deep Learning
-  #        url: ''
-  #      - certificate_url: https://www.edx.org
-  #        date_end: ''
-  #        date_start: '2021-01-01'
-  #        description: Formulated informed blockchain models, hypotheses, and use cases.
-  #        icon: edx
-  #        organization: edX
-  #        organization_url: https://www.edx.org
-  #        title: Blockchain Fundamentals
-  #        url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-  #      - certificate_url: https://www.datacamp.com
-  #        date_end: '2020-12-21'
-  #        date_start: '2020-07-01'
-  #        description: ''
-  #        icon: datacamp
-  #        organization: DataCamp
-  #        organization_url: https://www.datacamp.com
-  #        title: 'Object-Oriented Programming in R'
-  #        url: ''
-  #  design:
-  #    columns: '2'
+  - block: Awards
+    id: awards
+    content:
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'Awards'
+      subtitle:
+      # Date format: https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - certificate_url: https://www.coursera.org
+          date_end: ''
+          date_start: '2021-01-25'
+          description: ''
+          icon: coursera
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: Neural Networks and Deep Learning
+          url: ''
+        - certificate_url: https://www.edx.org
+          date_end: ''
+          date_start: '2021-01-01'
+          description: Formulated informed blockchain models, hypotheses, and use cases.
+          icon: edx
+          organization: edX
+          organization_url: https://www.edx.org
+          title: Blockchain Fundamentals
+          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+        - certificate_url: https://www.datacamp.com
+          date_end: '2020-12-21'
+          date_start: '2020-07-01'
+          description: ''
+          icon: datacamp
+          organization: DataCamp
+          organization_url: https://www.datacamp.com
+          title: 'Object-Oriented Programming in R'
+          url: ''
+    design:
+      columns: '2'
+  - block: Memberships
+    id: memberships
+    content:
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'Memberships'
+      subtitle:
+      # Date format: https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - certificate_url: https://www.coursera.org
+          date_end: ''
+          date_start: '2021-01-25'
+          description: ''
+          icon: coursera
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: Neural Networks and Deep Learning
+          url: ''
+        - certificate_url: https://www.edx.org
+          date_end: ''
+          date_start: '2021-01-01'
+          description: Formulated informed blockchain models, hypotheses, and use cases.
+          icon: edx
+          organization: edX
+          organization_url: https://www.edx.org
+          title: Blockchain Fundamentals
+          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+        - certificate_url: https://www.datacamp.com
+          date_end: '2020-12-21'
+          date_start: '2020-07-01'
+          description: ''
+          icon: datacamp
+          organization: DataCamp
+          organization_url: https://www.datacamp.com
+          title: 'Object-Oriented Programming in R'
+          url: ''
+    design:
+      columns: '2'
   #- block: collection
   #  id: posts
   #  content:
@@ -190,10 +234,10 @@ sections:
   #      {{< gallery album="demo" >}}
   #  design:
   #    columns: '1'
-  - block: collection
+  - block: Publications
     id: featured
     content:
-      title: Featured Publications
+      title: Publications
       filters:
         folders:
           - publication
@@ -201,20 +245,20 @@ sections:
     design:
       columns: '2'
       view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
   #- block: collection
   #  id: talks
   #  content:
@@ -230,6 +274,53 @@ sections:
   #    title: Popular Topics
   #  design:
   #    columns: '2'
+  - block: Courses
+    id: courses
+    content:
+      title: Courses
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: CEO
+          company: GenCoin
+          company_url: ''
+          company_logo: org-gc
+          location: California
+          date_start: '2021-01-01'
+          date_end: ''
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: Professor of Semiconductor Physics
+          company: University X
+          company_url: ''
+          company_logo: org-x
+          location: California
+          date_start: '2016-01-01'
+          date_end: '2020-12-31'
+          description: Taught electronic engineering and researched semiconductor physics.
+    design:
+      columns: '2'
+  - block: Teaching
+    id: teaching
+    content:
+      title: Teaching
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
   - block: contact
     id: contact
     content:
@@ -238,8 +329,8 @@ sections:
       #text: |-
       #  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       ## Contact (add or remove contact options as necessary)
-      email: abdullah.a.almans@gmail.com
-      phone: +966503292840
+      email: aalmansour2@ksu.edu.sa 
+      phone: +966 50 329 2840
       #appointment_url: 'https://calendly.com'
       address:
         #street: 450 Serra Mall
