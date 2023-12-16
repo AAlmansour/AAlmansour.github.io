@@ -86,8 +86,8 @@ sections:
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
-  - block: Awards
-    id: awards
+  - block: accomplishments
+    # id: awards
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Awards'
@@ -129,7 +129,7 @@ sections:
           url: ''
     design:
       columns: '2'
-  - block: Memberships
+  - block: accomplishments
     id: memberships
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -234,7 +234,7 @@ sections:
   #      {{< gallery album="demo" >}}
   #  design:
   #    columns: '1'
-  - block: Publications
+  - block: collection
     id: featured
     content:
       title: Publications
@@ -274,7 +274,7 @@ sections:
   #    title: Popular Topics
   #  design:
   #    columns: '2'
-  - block: Courses
+  - block: Experiences
     id: courses
     content:
       title: Courses
@@ -310,7 +310,7 @@ sections:
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
-  - block: Teaching
+  - block: collection
     id: teaching
     content:
       title: Teaching
