@@ -274,7 +274,7 @@ sections:
   #    title: Popular Topics
   #  design:
   #    columns: '2'
-  - block: Experiences
+  - block: Experience
     id: courses
     content:
       title: Courses
