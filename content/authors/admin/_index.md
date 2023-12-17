@@ -34,10 +34,10 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - icon: envelope
-      course: Bachelor of Science in Computer Engineering
+    - icon: ksu
+      course: B.Sc. in Computer Engineering
       institution: King Saud University
-      year: 2015 - 2020
+      year: 2020
     #- course: MEng in Artificial Intelligence
     #  institution: Massachusetts Institute of Technology
     #  year: 2009
@@ -119,9 +119,9 @@ social:
 highlight_name: true
 ---
 
-I am a Teaching Assistant (since Nov. 2022) in the Department of Computer Engineering at King Saud University (KSU). My current research lies in Signal Processing, Machine Learning, and Computer Vision.
+I am a Teaching Assistant (since Nov. 2022) in the Department of Computer Engineering at King Saud University (KSU). My current research lies in Signal Processing and Machine Learning. 
 
-Before joining KSU, I worked in places at the intersection between the academia and the industry starting with my first job as a programmer at King Abdullah International Medical Research Center (KAIMRC) in the Imaging Research Department. After that, i went to the National Center for AI at SDAIA where i worked in the Research and Development Department and there where i awarded the SDAIA-KAUST Data Science and Artificial Intelligence fellowship. For the later, i worked in the Visual Computing Center as a visiting researcher working under the supervision of Prof. Peter Wonka.
+Before joining KSU, I worked in places at the intersection between the academia and the industry starting at King Abdullah International Medical Research Center (KAIMRC) in the Imaging Research Department. Thereafter, I joined the National Center for AI at SDAIA where I worked in the R&D and there where I awarded the SDAIA-KAUST Data Science and Artificial Intelligence Fellowship. For the later, I joined the Visual Computing Center (VCC) as a Visiting Research Engineer working under the supervision of Prof. Peter Wonka.
 
-I obtained my B.Sc. in Computer Engineer with First Class Honors and Graduated with the First Rank among Graduated Students from the College of Computer and Information Sciences, King Saud University, Saudi Arabia, in July 2020. During my B.Sc., i Awarded with the Prize of the Dean's List of Outstanding Students (2018 / 2019).
+I obtained my B.Sc. in Computer Engineer with First Class Honors and Graduated with the First Rank among Graduated Students from the College of Computer and Information Sciences, King Saud University, Saudi Arabia, in July 2020. During my B.Sc., I Awarded with the Prize of the Dean's List of Outstanding Students (2018 / 2019).
 {style="text-align: justify;"}
