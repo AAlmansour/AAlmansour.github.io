@@ -87,14 +87,14 @@ sections:
         - title: Teaching Assistant
           company: King Saud University (KSU)
           company_url: ''
-          company_logo: ksu
+          company_logo: org-x
           location: Riyadh, Riyadh, Saudi Arabia
           date_start: '2022-11-27'
           date_end: ''
         - title: Research Engineer
           company: King Abdullah University of Science and Technology (KAUST)
           company_url: ''
-          company_logo: kaust
+          company_logo: org-x
           location: Mecca, Thuwal, Saudi Arabia
           date_start: '2022-06-01'
           date_end: '2022-12-31'
@@ -102,7 +102,7 @@ sections:
         - title: Artiﬁcial Intelligence Engineer
           company: National Center for Artiﬁcial Intelligence (NCAI/SDAIA)
           company_url: ''
-          company_logo: sdaia
+          company_logo: org-x
           location: Riyadh, Riyadh, Saudi Arabia
           date_start: '2021-08-01'
           date_end: '2022-10-31'
@@ -110,7 +110,7 @@ sections:
         - title: Deep Learning Software Developer
           company: King Abdullah International Medical Research Center (KAIMRC/KSAU-HS)
           company_url: ''
-          company_logo: kaimrc
+          company_logo: org-x
           location: Riyadh, Riyadh, Saudi Arabia
           date_start: '2020-11-01'
           date_end: '2021-07-31'
@@ -118,7 +118,7 @@ sections:
         - title: Deep Learning Software Developer Trainee
           company: King Abdullah International Medical Research Center (KAIMRC/KSAU-HS)
           company_url: ''
-          company_logo: kaimrc
+          company_logo: org-x
           location: Riyadh, Riyadh, Saudi Arabia
           date_start: '2020-06-01'
           date_end: '2020-08-31'
@@ -139,32 +139,68 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        # - certificate_url: https://www.coursera.org
+        #   date_end: ''
+        #   date_start: '2021-01-25'
+        #   description: ''
+        #   icon: coursera
+        #   organization: Coursera
+        #   organization_url: https://www.coursera.org
+        #   title: Neural Networks and Deep Learning
+        #   url: ''
+        # - certificate_url: https://www.edx.org
+        #   date_end: ''
+        #   date_start: '2021-01-01'
+        #   description: Formulated informed blockchain models, hypotheses, and use cases.
+        #   icon: edx
+        #   organization: edX
+        #   organization_url: https://www.edx.org
+        #   title: Blockchain Fundamentals
+        #   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+        # - certificate_url: https://www.datacamp.com
+        #   date_end: '2020-12-21'
+        #   date_start: '2020-07-01'
+        #   description: ''
+        #   icon: datacamp
+        #   organization: DataCamp
+        #   organization_url: https://www.datacamp.com
+        #   title: 'Object-Oriented Programming in R'
+        #   url: ''
+        - certificate_url: ''
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2022-01-25'
           description: ''
           icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          organization: National Center for Artiﬁcial Intelligence (NCAI/SDAIA)
+          organization_url: ''
+          title: SDAIA-KAUST Data Science and Artiﬁcial Intelligence Fellowship
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: ''
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+          date_start: '2020-01-25'
           description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          icon: coursera
+          organization: King Saud University (KSU)
+          organization_url: ''
+          title: Graduated with First Class Honors in Computer Engineering, B.Sc.
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2020-01-25'
+          description: ''
+          icon: coursera
+          organization: King Saud University (KSU)
+          organization_url: ''
+          title: Graduated with Rank (1) in Computer Engineering Major, B.Sc.
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2019-01-25'
+          description: ''
+          icon: coursera
+          organization: King Saud University (KSU)
+          organization_url: ''
+          title: The Prize of the Dean’s List of Outstanding Students, King Saud University
           url: ''
     design:
       columns: '2'
@@ -182,32 +218,41 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
+        # - certificate_url: https://www.coursera.org
+        #   date_end: ''
+        #   date_start: '2021-01-25'
+        #   description: ''
+        #   icon: coursera
+        #   organization: Coursera
+        #   organization_url: https://www.coursera.org
+        #   title: Neural Networks and Deep Learning
+        #   url: ''
+        # - certificate_url: https://www.edx.org
+        #   date_end: ''
+        #   date_start: '2021-01-01'
+        #   description: Formulated informed blockchain models, hypotheses, and use cases.
+        #   icon: edx
+        #   organization: edX
+        #   organization_url: https://www.edx.org
+        #   title: Blockchain Fundamentals
+        #   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+        # - certificate_url: https://www.datacamp.com
+        #   date_end: '2020-12-21'
+        #   date_start: '2020-07-01'
+        #   description: ''
+        #   icon: datacamp
+        #   organization: DataCamp
+        #   organization_url: https://www.datacamp.com
+        #   title: 'Object-Oriented Programming in R'
+        #   url: ''
+        - certificate_url: ''
+          date_end: '2020-01-25'
+          date_start: '2017-01-25'
           description: ''
           icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          organization: King Saud University (KSU)
+          organization_url: ''
+          title: King Saud University Distinguished and Talented Students Program
           url: ''
     design:
       columns: '2'
