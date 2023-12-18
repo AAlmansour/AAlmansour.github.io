@@ -63,27 +63,66 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
+        # - title: CEO
+        #   company: GenCoin
+        #   company_url: ''
+        #   company_logo: org-gc
+        #   location: California
+        #   date_start: '2021-01-01'
+        #   date_end: ''
+        #   description: |2-
+        #       Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+        #       * Analysing
+        #       * Modelling
+        #       * Deploying
+        # - title: Professor of Semiconductor Physics
+        #   company: University X
+        #   company_url: ''
+        #   company_logo: org-x
+        #   location: California
+        #   date_start: '2016-01-01'
+        #   date_end: '2020-12-31'
+        #   description: Taught electronic engineering and researched semiconductor physics.
+        - title: Teaching Assistant
+          company: King Saud University (KSU)
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: ksu
+          location: Riyadh, Riyadh, Saudi Arabia
+          date_start: '2022-11-27'
+          date_end: ''
+        - title: Research Engineer
+          company: King Abdullah University of Science and Technology (KAUST)
+          company_url: ''
+          company_logo: kaust
+          location: Mecca, Thuwal, Saudi Arabia
+          date_start: '2022-06-01'
+          date_end: '2022-12-31'
+          # description: Taught electronic engineering and researched semiconductor physics.
+        - title: Artiﬁcial Intelligence Engineer
+          company: National Center for Artiﬁcial Intelligence (NCAI/SDAIA)
+          company_url: ''
+          company_logo: sdaia
+          location: Riyadh, Riyadh, Saudi Arabia
+          date_start: '2021-08-01'
+          date_end: '2022-10-31'
+          # description: Taught electronic engineering and researched semiconductor physics.
+        - title: Deep Learning Software Developer
+          company: King Abdullah International Medical Research Center (KAIMRC/KSAU-HS)
+          company_url: ''
+          company_logo: kaimrc
+          location: Riyadh, Riyadh, Saudi Arabia
+          date_start: '2020-11-01'
+          date_end: '2021-07-31'
+          # description: Taught electronic engineering and researched semiconductor physics.
+        - title: Deep Learning Software Developer Trainee
+          company: King Abdullah International Medical Research Center (KAIMRC/KSAU-HS)
+          company_url: ''
+          company_logo: kaimrc
+          location: Riyadh, Riyadh, Saudi Arabia
+          date_start: '2020-06-01'
+          date_end: '2020-08-31'
+          # description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
   - block: accomplishments
