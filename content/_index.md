@@ -297,13 +297,13 @@ sections:
       # To show all items, set `tag` to "*".
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+      # buttons:
+      #   - name: All
+      #     tag: '*'
+      #   - name: Deep Learning
+      #     tag: Deep Learning
+      #   - name: Other
+      #     tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -318,46 +318,46 @@ sections:
   #      {{< gallery album="demo" >}}
   #  design:
   #    columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
   # - block: collection
+  #   id: featured
   #   content:
-  #     title: Recent Publications
-  #     text: |-
-  #       {{% callout note %}}
-  #       Quickly discover relevant content by [filtering publications](./publication/).
-  #       {{% /callout %}}
+  #     title: Publications
   #     filters:
   #       folders:
   #         - publication
-  #       exclude_featured: true
+  #       featured_only: true
   #   design:
   #     columns: '2'
-  #     view: citation
-  #- block: collection
-  #  id: talks
-  #  content:
-  #    title: Recent & Upcoming Talks
-  #    filters:
-  #      folders:
-  #        - event
-  #  design:
-  #    columns: '2'
-  #    view: compact
-  #- block: tag_cloud
-  #  content:
-  #    title: Popular Topics
-  #  design:
-  #    columns: '2'
+  #     view: card
+  - block: collection
+    content:
+      title: Recent Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
+  - block: collection
+   id: talks
+   content:
+     title: Recent & Upcoming Talks
+     filters:
+       folders:
+         - event
+   design:
+     columns: '2'
+     view: compact
+  - block: tag_cloud
+   content:
+     title: Popular Topics
+   design:
+     columns: '2'
   - block: Experience
     id: courses
     content:
