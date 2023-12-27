@@ -345,13 +345,13 @@ sections:
       columns: '2'
       view: citation
   - block: collection
-   id: talks
-   content:
+    id: talks
+    content:
      title: Recent & Upcoming Talks
      filters:
        folders:
          - event
-   design:
+    design:
      columns: '2'
      view: compact
   - block: tag_cloud
